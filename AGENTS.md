@@ -67,6 +67,7 @@ python-practice-modules/
 ├── 06-etch-a-sketch/           # Event-driven drawing app
 ├── 07-turtle-race/             # Racing game with randomization
 ├── 08-snake-game/              # Classic Snake game
+├── 09-pong-game/              # Two-player Pong game
 ├── requirements.txt            # Shared dependencies
 ├── .env / .env.example         # Environment variables template
 └── SETUP.md                    # Detailed setup instructions
@@ -84,7 +85,7 @@ python-practice-modules/
 - Classes in separate files: e.g., `coffee_maker.py`, `menu.py`, `money_machine.py`
 - Pattern: Composition over inheritance, simple class hierarchies
 
-**Turtle Graphics Projects** (`04-turtle-graphics-basics/` through `08-snake-game/`):
+**Turtle Graphics Projects** (`04-turtle-graphics-basics/` through `09-pong-game/`):
 - Entry point: `main.py` sets up screen and game loop
 - Game objects: Separate classes (e.g., `snake.py`, `food.py`, `scoreboard.py`)
 - Common flow:
@@ -119,6 +120,7 @@ Every project runs via `main.py` in its directory:
 - `06-etch-a-sketch/main.py` - Drawing app with keyboard controls
 - `07-turtle-race/main.py` - Turtle racing game with betting
 - `08-snake-game/main.py` - Snake game with collision detection
+- `09-pong-game/main.py` - Two-player Pong game with keyboard controls
 
 ### Configuration Files
 - **requirements.txt**: Python dependencies (currently only `prettytable>=3.0.0`)
